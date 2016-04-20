@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>Boogle</title>
+      <meta charset="utf-8">
+      <meta name="author" content="Andrej Požar">
+       <title>Brasilian Boogle</title>
        <link type="text/css" rel="stylesheet" href="stylesheet.css">
        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      </head>
     <body>
       <!--navigacija-->
-       <div class="navigacija">
-          <ol id="decoration">
-           <li><a href="http://boogle.com/user1">User</a></li>
-           <li><a href="http://boogle.com/usermail">mail</a></li>
-           <li><a href="http://boggle.com/userslike">slike</a></li>
-              <li class="material-icons">apps</li>
-           <li class="material-icons">add_alert</li>
-            <li><a href="http:// google me">
-                <img id="jazo" src="https://lh3.googleusercontent.com/pDs_lUG1oudV2gMWfHwuXRkgkhqexNTgA0hqNp9nf4MfDzK5Yq_yk6argpbUOjABxDmM=w1600-h900-rw-no">
-            </a></li>
-           </ol>
-       </div>
+    <nav class="navigacija">
+        <span style="font-family: sans-serif; font-size: 13px; vertical-align: middle;">Andrej</span>
+        <a href="#">Mail</a>
+        <a href="#">Slike</a> 
+        <a href="#" class="material-icons">apps</a>
+        <a href="#" class="material-icons">add_alert</a>
+        <a href="#"><img id="jazo" src="https://lh3.googleusercontent.com/pDs_lUG1oudV2gMWfHwuXRkgkhqexNTgA0hqNp9nf4MfDzK5Yq_yk6argpbUOjABxDmM=w1600-h900-rw-no">
+        </a>
+    </nav>
+
+<!--center boogle-->
+    <section class="search">
        <div class="logob">
          <img src="http://agperson.com/old/boogle/boogle.gif">  
-       </div>
-       <div>
-           <form>
-               <input type="search"></form>
-               <a href="">
-               <img src="http://findicons.com/files/icons/1676/primo/128/currency_black_dollar.png">
-               </a>
-               <a href="">
-                   <img src="http://findicons.com/files/icons/1580/devine_icons_part_2/128/mic.png">
-               </a>
         </div>
-        <div>
+        <div class="searchform">
+           <form>
+               <input id="okvir" type="search">
+               <a href="#">
+               <img id="icon1" src="http://findicons.com/files/icons/1676/primo/128/currency_black_dollar.png">
+               </a>
+               <a href="#">
+                <img id="icon2" src="http://findicons.com/files/icons/1580/devine_icons_part_2/128/mic.png">
+               </a>
+            </form>
+        </div>
+        <div class="buttons">
            <button>Iskanje Boogle</button>
            <button>1000k</button>
        </div>
-        
+    </section>
+<!-- noga -->
+       <footer>
+        <div id="foterleft">
+            <a href="#">Oglaševanje</a>
+            <a href="#">Posel</a>
+            <a href="#">Predstavitev</a>
+        </div>
+        <div id="foterright">
+            <a href="#">Zasebnost</a>
+            <a href="#">Pogoji</a>
+            <a href="#">Nastavitve</a>
+        </div>
+    </footer>    
     </body>
 </html>
